@@ -54,16 +54,12 @@ else:
 # Affichage du Score client 
 # Titre 1
 st.markdown("""<h1 style="color:#772b58;font-size:2.3em;font-style:italic;font-weight:700;margin:0px;">
-                Score du client: </h1>
+                Résultat de la prédiction: </h1>
             """, unsafe_allow_html=True)
 st.write("")
 
 col1, col2 = st.columns(2)
 with col2:
-    original_title = '<p style="font-size: 20px;text-align: center;"> <u>Probabilité d\'être en défaut de paiement : </u> </p>'
-    st.markdown(original_title, unsafe_allow_html=True)
-    original_title = '<p style="font-family:Courier; color:BROWN; font-size:50px; text-align: center;">{}%</p>'.format((probability_default_payment[0]*100).round(2))
-    st.markdown(original_title, unsafe_allow_html=True)
 
     original_title = '<p style="font-size: 20px;text-align: center;"> <u>Conclusion : </u> </p>'
     st.markdown(original_title, unsafe_allow_html=True)
