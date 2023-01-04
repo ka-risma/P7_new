@@ -24,7 +24,7 @@ data_test_std = pd.read_csv('Data/P7_data_test_20features_importance_std_sample.
 #     Lecture de l'information d'un client      #
 #################################################
 
-liste_clients=list(data_test_interprete['SK_ID_CURR'].values)
+liste_clients=list(data_test_std['SK_ID_CURR'].values)
 
 seuil = 0.52
 
