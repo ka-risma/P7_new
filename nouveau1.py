@@ -61,8 +61,8 @@ st.write("")
 col1, col2 = st.columns(2)
 with col2:
 
-    original_title = '<p style="font-size: 20px;text-align: center;"> <u>Conclusion : </u> </p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    #original_title = '<p style="font-size: 20px;text-align: center;"> <u>Conclusion : </u> </p>'
+    #st.markdown(original_title, unsafe_allow_html=True)
 
     if prediction == "Prêt Accordé":
         original_title = '<p style="font-family:Courier; color:GREEN; font-size:70px; text-align: center;">{}</p>'.format(prediction)
