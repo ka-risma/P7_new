@@ -29,7 +29,7 @@ liste_clients=list(data_test_std['SK_ID_CURR'].values)
 seuil = 0.52
 
 # Selection d'un client
-ID_client = st.selectbox("Merci de saisir l'identifiant du client:", (liste_clients))
+ID_client = st.selectbox("Identifiant du client:", (liste_clients))
 
 st.text("")
 
